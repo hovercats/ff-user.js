@@ -1,5 +1,5 @@
 # user.js
-This repo contains my personal user.js profiles, which is based off of (Arkenfox user.js)[https://github.com/arkenfox/user.js], and (Privacytools.io)[https://privacytools.io/browsers/#about_config].
+This repo contains my personal user.js profiles, which is based off of Arkenfox user.js [https://github.com/arkenfox/user.js], and Privacytools.io (https://privacytools.io/browsers/#about_config].
 I created this repo, mainly to make it convinient for me easily get my configs straight after reinstalling an OS or firefox, which tbh, is a tedious process, atleast with Arkenfox-based part.
 
 # Privacytools.io-based
