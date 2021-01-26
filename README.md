@@ -23,9 +23,12 @@ Ive focused on hardening, but Ive tried not to obliterate usablity to an unsuabl
 I plan on using this as my main profile, so being able to do everyday stuff like i.e. reddit or use ~~youtube~~ *coff*, **invidious** should be expected to work. 
 Some breakage is to be expected.
 What currently works;
+
 [ ] Reddit
+
 	* There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this
 [x] ~~YouTube~~ **Invidious**
+
 	* I havent tested YT's site, nor yt player on invidious, as I dont personally use it, but it is expected to break due to some settings.
 	* You should not use YT anyway, stick with Invidious
 
