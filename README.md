@@ -27,6 +27,7 @@ What currently works;
 [ ] Reddit
 
 * There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this
+
 [x] ~~YouTube~~ **Invidious**
 
 * I havent tested YT's site, nor yt player on invidious, as I dont personally use it, but it is expected to break due to some settings.
