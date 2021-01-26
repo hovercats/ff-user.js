@@ -6,20 +6,29 @@ This repo was initially created with the intention of making it convinient for m
 
 ### PTIO-user.js
 This user.js, is the profile Ive used for a long time, and its proven to work.
-Its based off of the recommendations of (Privacytools.io's about:config)[https://privacytools.io/browsers/#about_config].
+Its based off of the recommendations of [Privacytools.io's about:config](https://privacytools.io/browsers/#about_config).
 The goal of this profile, is as following;
 
 - Just work.
 - Convinient, yet more secure/private than default configs
 - Should work fine for the everyday man, looking for more privacy without comprimising on usablity
 - Minimal breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still retained
-
+What currently works;
+[x] Everything
 
 
 ### Arkenfox-based
-In this user.js, I will focus on having hardening to a maximun, while yet be able to actually use it for my day to day stuff.
-I would still like to be able to log into i.e. reddit, without having to switch profiles just to do so.
-The ptio-based, is in reality (to me) a backup if I dont really find the time to figure out what the culprit of breakage on X website, instead just switch profile and do my business, and be on my mary way. 
+In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), and just commented/uncommented some stuff to my liking.
+Ive focused on hardening, but Ive tried not to obliterate usablity to an unsuable state. 
+I plan on using this as my main profile, so being able to do everyday stuff like i.e. reddit or use ~~youtube~~ *coff*, **invidious** should be expected to work. 
+Some breakage is to be expected.
+What currently works;
+[ ] Reddit
+	* There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this
+[x] ~~YouTube~~ **Invidious**
+	* I havent tested YT's site, nor yt player on invidious, as I dont personally use it, but it is expected to break due to some settings.
+	* You should not use YT anyway, stick with Invidious
+
 I will try my best to keep some track of Arkenfox's work, and add/remove stuff as theyre added/removed/depreciated.
 
 Feel free to use these as you wish, or create an issue if theres any problems that needs to be solved.
