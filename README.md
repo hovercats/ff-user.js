@@ -14,7 +14,7 @@ The goal of this profile, is as following;
 - Should work fine for the everyday man, looking for more privacy without comprimising on usablity
 - Minimal breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still retained
 What currently works;
-[x] Everything
+- [x] Everything
 
 
 ### Arkenfox-based
@@ -24,11 +24,11 @@ I plan on using this as my main profile, so being able to do everyday stuff like
 Some breakage is to be expected.
 What currently works;
 
-[ ] Reddit
+- [ ] Reddit
 
 * There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this
 
-[x] ~~YouTube~~ **Invidious**
+- [x] ~~YouTube~~ **Invidious**
 
 * I havent tested YT's site, nor yt player on invidious, as I dont personally use it, but it is expected to break due to some settings.
 * You should not use YT anyway, stick with Invidious
