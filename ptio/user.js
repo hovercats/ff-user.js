@@ -25,3 +25,10 @@ user_pref("media.peerconnection.turn.disable", true);
 user_pref("media.peerconnection.use_document_iceservers", false
 user_pref("media.peerconnection.video.enabled", false
 user_pref("media.peerconnection.identity.timeout", 1);
+user_pref("startup.homepage_weclome_url", "");
+user_pref("browser.backspace_action", 2);
+user_pref("extensions.pocket.enabled", false);
+user_pref("identity.fxaccounts.enabled", false);
+user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+
