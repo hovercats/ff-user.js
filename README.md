@@ -31,7 +31,7 @@ Some breakage is to be expected.
 
 - [/] Reddit
 
-* ~~ There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this ~~ old.reddit.com works.
+* ~~There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this~~ old.reddit.com works.
 
 - [x] ~~YouTube~~ **Invidious**
 
