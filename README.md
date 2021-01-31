@@ -29,7 +29,7 @@ Some breakage is to be expected.
 #### Things of interest:
 ##### Just a small list if things that may be of interest if works, or how it works, and how to *fix* them
 
-- [/] Reddit
+- [ ] Reddit (partially)
 
 * ~~There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this~~ old.reddit.com works.
 
