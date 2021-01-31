@@ -16,9 +16,10 @@ The goal of this profile, is as following;
 What currently works;
 - [x] Everything
 
-* Ive disabled a couple of other things outside of ptio;
-	* pocket, firefox accounts, extension recommendation, and whatsnew pages, as I just find them annoying. refer to user.js if you need these.
+* Ive changed a couple of other things outside of ptio;
+	* pocket, firefox accounts, extension recommendation, and whatsnew pages is disabled, as I just find them annoying. refer to user.js if you need these.
 	* I enabled backspace to go back.
+	* Set dom.event.contextmenu.enabled to false. some websites likes to restrict you on rightclicking, and Im not having it, so I changed this setting.
 
 ### Arkenfox-based
 In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), and initially just commented/uncommented it to suit my preferences. this may or may not work for you, so please dont get worked up if something doesnt work like youre used to, as my preferences may differ from yours. Below, I also started a list of things that may be of interest to you. 
