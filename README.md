@@ -14,7 +14,7 @@ The goal of this profile, is as following;
 - Should work fine for the everyday man, looking for more privacy without comprimising on usablity
 - Minimal breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still retained
 What currently works;
-- [x] Everything
+- [x] Everything *(afaik anyway*)
 
 * Ive changed a couple of other things outside of ptio;
 	* pocket, firefox accounts, extension recommendation, and whatsnew pages is disabled, as I just find them annoying. refer to user.js if you need these.
@@ -32,16 +32,17 @@ Some breakage is to be expected.
 
 - [ ] Reddit (partially)
 
-* ~~There seems to be an issue with the logging in part, Im able to log in, but the screen wont load after this~~ old.reddit.com works.
+* ~~There seems to be an issue with the logging in part, Im able to enter my credentials, but the redirect dont seem to work as intended~~ old.reddit.com works.
 
 - [x] ~~YouTube~~ **Invidious**
+- [ ] Github -  Cant seem to access the side menu where you log in. have to use ptio profile to access untill I figure out what setting is tripping it.
 
 * due to svg.disabled is set to true, yt player may break, if you for some reason refuse to use invidious, instead of youtube, you may wish to set **svg.disabled** to false instead. 
 * I havent tested YT's site, nor yt player on invidious, as I dont personally use it.
 * You should not use YT anyway, stick with Invidious.
 
-* This profile has some quirks, that may not be what youre used to:
-	* You cannot search directly from the URL bar, this is to prevent leaks, and search engine getting your misspelled URLs. to search, either first type @ddg (or any other, check your settings for searh engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. se user.js for more info.
+* **This profile has some quirks, that may not be what youre used to:**
+	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled URLs. to search, either first type @ddg (or any other, check your settings for searh engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. se user.js for more info.
 	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have sort of a white *frame* inside the window, wrapping the website. this may be annoying to you, and if thats the case, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
 
 I will try my best to keep some track of Arkenfox's work, and add/remove stuff as theyre added/removed/depreciated as firefox is updated.
