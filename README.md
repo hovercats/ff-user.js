@@ -35,6 +35,7 @@ Some breakage is to be expected.
 * ~~There seems to be an issue with the logging in part, Im able to enter my credentials, but the redirect dont seem to work as intended~~ old.reddit.com works.
 
 - [x] ~~YouTube~~ **Invidious**
+
 - [ ] Github -  Cant seem to access the side menu where you log in. have to use ptio profile to access untill I figure out what setting is tripping it.
 
 * due to svg.disabled is set to true, yt player may break, if you for some reason refuse to use invidious, instead of youtube, you may wish to set **svg.disabled** to false instead. 
