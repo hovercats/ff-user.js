@@ -1,5 +1,5 @@
 ## Firefox user.js profiles
-In this repo, youll find 3 sets of user.js', to use on your firefox browser (or forks that support this). Beginning from a better default, with privacytools.io's recommendations, ending with a really hardened setup made from arkenfox's user.js.
+In this repo, youll find 3 sets of user.js', to use on your firefox browser (or forks that support it). Beginning from a better default, with privacytools.io's recommendations with more, ending with a really hardened setup made from arkenfox's user.js.
 
 
 
@@ -35,9 +35,9 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 
 - [ ] Github -  Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.
 
-* due to svg.disabled is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false instead. 
+* due to **svg.disabled** is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false. 
 * I havent tested youtube.com, ~~nor yt player on invidious,~~ (yt player option on invidious does work for me)  as I dont personally use it.
-* You should not use YT anyway, stick with Invidious.
+* You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
 
 * **This profile has some quirks, that may not be what youre used to:**
 	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled URLs. to search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
@@ -65,6 +65,7 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 [Arkenfox github](https://github.com/arkenfox/user.js/)
 [R/privacy](reddit.com/r/privacy/)
 [R/privacytoolsIO](reddit.com/r/privacytoolsio)
+[Invidious - Youtube front-end alternative](https://github.com/iv-org/invidious)
 [Techlore - Invidious link](https://invidious.snopyta.org/channel/UCs6KfncB4OV6Vug4o_bzijg) -  [Youtube link](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg)
 [The hated one - Invidious link](https://invidious.snopyta.org/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - [Youtube link](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q)
 [EFF - Electronic Frontier Foundation](https://www.eff.org/)
