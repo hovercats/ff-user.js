@@ -44,13 +44,13 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have sort of a white *frame* inside the window, wrapping the website. this may be annoying to you, and if thats the case, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
 
 
-### Extra-hardened **(WIP!)**
-This profile is as of writing this not started to be worked on.
-The file is added in the repo, but its still the same as the hardened user.js, because its based on the same settings, just with some other further hardening to it.
-
+### Extra-hardened *(Currently not added**
+This user.js is a continue from where hardened profile left of, with some additional tweaks for further hardening. More on this profile later, once I get to start editing it.
 
 
 ### Other stuff that might be of interest
+
+
 #### Addons
 
 * [Umatrix](https://github.com/gorhill/uMatrix)
@@ -63,8 +63,6 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 * [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - [Website](https://noscript.net/) 
 	* Scriptblocking tool, used by Tor Browser. Has alot of good features.
  
-* *HTTPS everywhere* 
-	* **No longer needed with FF https-only mode.** Enabled on all profiles.
 
 * [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 	* Blocks trackers on urls, and can clean urls you share.
@@ -73,6 +71,10 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 		* Redirects Youtube, Twitter, Instagram and more. 
 	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
+
+* *HTTPS everywhere* 
+	* **No longer needed with FF https-only mode.** Enabled on all profiles.
+
 
 #### References, links etc
 [Privacytools.io](privacytools.io) \
