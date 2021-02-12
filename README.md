@@ -70,6 +70,7 @@ This user.js is a continue from where hardened profile left of, with some additi
 
 * [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) \
 		* Redirects Youtube, Twitter, Instagram and more. 
+	
 	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
 
