@@ -52,13 +52,27 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 
 ### Other stuff that might be of interest
 #### Addons
-- Umatrix (its developement has been stopped, but it still works. use wit caution, as it wont recieve any more updates)
-- Ublock origin (Script blocking. has blocking lists, and is really great even for those who dont wish to mess too much with it. can even block elements on webpages, like cookie acceptance prompts, and other annoying things) 
-- Noscript (script blocking, which is used by Tor browser, good, and simple stuff with some good tweaks.)
-- HTTPS everywhere (may not be needed anymore, due to FF implementing HTTPS only mode (enabled in all profiles) 
-- ClearURLS
-- Decentraleyes
-- Invidition (redirect all videos to invidious links, insteads of YT. even embedded videos. Also support nitter (twitter version of invidous))
+
+* [Umatrix](https://github.com/gorhill/uMatrix)
+	* **WARNING!! No longer recieving updates!!**
+	* Advanced Blocking utilty, that can block scripts, cookies, CSS, images frames..
+
+* [uBlock Origin](https://github.com/gorhill/uBlock)
+	* Convinient scriptblocking tool, with blocklists, which means it can easily be used in the background, or you can run it in advanced mode to block all scripts by default. 
+
+* [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)[Website](https://noscript.net/) 
+	* Scriptblocking tool, used by Tor Browser. Has alot of good features.
+ 
+* *HTTPS everywhere* 
+	* **No longer needed with FF https-only mode.** Enabled on all profiles.
+
+* [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+	 * Blocks trackers on urls, and can clean urls you share.
+
+* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect)
+		* Redirects Youtube, Twitter, Instagram and more. 
+	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
+		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
 
 #### References, links etc
 [Privacytools.io](privacytools.io) 
