@@ -60,7 +60,7 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 * [uBlock Origin](https://github.com/gorhill/uBlock)
 	* Convinient scriptblocking tool, with blocklists, which means it can easily be used in the background, or you can run it in advanced mode to block all scripts by default. 
 
-* [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/)[Website](https://noscript.net/) 
+* [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - [Website](https://noscript.net/) 
 	* Scriptblocking tool, used by Tor Browser. Has alot of good features.
  
 * *HTTPS everywhere* 
@@ -75,7 +75,7 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
 
 #### References, links etc
-[Privacytools.io](privacytools.io) \ 
+[Privacytools.io](privacytools.io) \
 [Arkenfox github](https://github.com/arkenfox/user.js/) \
 [R/privacy](reddit.com/r/privacy/) \
 [R/privacytoolsIO](reddit.com/r/privacytoolsio) \
@@ -85,4 +85,4 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 [EFF - Electronic Frontier Foundation](https://www.eff.org/) \
 [Tor Browser](torproject.org) \
 [Whonix - basiclly Tor in virtualmachines](whonix.org) \
-[Tails OS - Amnesic live USB OS](https://tails.boum.org/) \ 
+[Tails OS - Amnesic live USB OS](https://tails.boum.org/) \
