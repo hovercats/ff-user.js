@@ -33,7 +33,8 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 
 - [x] ~~YouTube~~ **Invidious**
 
-- [ ] Github -  Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.
+- [x] Github (With a quirk) -  Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.
+	* I was able to log in when choosing to sign up, and at the bottom of the window, it says log in.
 
 * due to **svg.disabled** is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false. 
 * I havent tested youtube.com, ~~nor yt player on invidious,~~ (yt player option on invidious does work for me)  as I dont personally use it.
@@ -44,7 +45,7 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have sort of a white *frame* inside the window, wrapping the website. this may be annoying to you, and if thats the case, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
 
 
-### Extra-hardened *(Currently not added**
+### Extra-hardened *(Currently not added)*
 This user.js is a continue from where hardened profile left of, with some additional tweaks for further hardening. More on this profile later, once I get to start editing it.
 
 
@@ -67,7 +68,7 @@ This user.js is a continue from where hardened profile left of, with some additi
 * [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 	* Blocks trackers on urls, and can clean urls you share.
 
-* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect)
+* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) \
 		* Redirects Youtube, Twitter, Instagram and more. 
 	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
@@ -87,4 +88,4 @@ This user.js is a continue from where hardened profile left of, with some additi
 [EFF - Electronic Frontier Foundation](https://www.eff.org/) \
 [Tor Browser](torproject.org) \
 [Whonix - basiclly Tor in virtualmachines](whonix.org) \
-[Tails OS - Amnesic live USB OS](https://tails.boum.org/) \
+[Tails OS - Amnesic live USB OS](https://tails.boum.org/)
