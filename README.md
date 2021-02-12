@@ -67,7 +67,7 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 	* **No longer needed with FF https-only mode.** Enabled on all profiles.
 
 * [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
-	 * Blocks trackers on urls, and can clean urls you share.
+	* Blocks trackers on urls, and can clean urls you share.
 
 * [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect)
 		* Redirects Youtube, Twitter, Instagram and more. 
@@ -75,14 +75,14 @@ The file is added in the repo, but its still the same as the hardened user.js, b
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
 
 #### References, links etc
-[Privacytools.io](privacytools.io) 
-[Arkenfox github](https://github.com/arkenfox/user.js/)
-[R/privacy](reddit.com/r/privacy/)
-[R/privacytoolsIO](reddit.com/r/privacytoolsio)
-[Invidious - Youtube front-end alternative](https://github.com/iv-org/invidious)
-[Techlore - Invidious link](https://invidious.snopyta.org/channel/UCs6KfncB4OV6Vug4o_bzijg) -  [Youtube link](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg)
-[The hated one - Invidious link](https://invidious.snopyta.org/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - [Youtube link](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q)
-[EFF - Electronic Frontier Foundation](https://www.eff.org/)
-[Tor Browser](torproject.org)
-[Whonix - basiclly Tor in virtualmachines](whonix.org)
-[Tails OS - Amnesic live USB OS](https://tails.boum.org/) 
+[Privacytools.io](privacytools.io) \ 
+[Arkenfox github](https://github.com/arkenfox/user.js/) \
+[R/privacy](reddit.com/r/privacy/) \
+[R/privacytoolsIO](reddit.com/r/privacytoolsio) \
+[Invidious - Youtube front-end alternative](https://github.com/iv-org/invidious) \
+[Techlore - Invidious link](https://invidious.snopyta.org/channel/UCs6KfncB4OV6Vug4o_bzijg) -  [Youtube link](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg) \
+[The hated one - Invidious link](https://invidious.snopyta.org/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - [Youtube link](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) \
+[EFF - Electronic Frontier Foundation](https://www.eff.org/) \
+[Tor Browser](torproject.org) \
+[Whonix - basiclly Tor in virtualmachines](whonix.org) \
+[Tails OS - Amnesic live USB OS](https://tails.boum.org/) \ 
