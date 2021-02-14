@@ -1674,3 +1674,19 @@ user_pref("browser.search.geoSpecificDefaults.url", "");
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
+
+*// stuff I want to be automaticly configured, so I dont have to go through the settings at first *
+*// This list is currently not full, because Ive yet to find the rest of them in about:config *
+
+user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownloads", false);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includeVisited", false);
+user_pref("browser.newtabpage.activity-stream.section.showSearch", false);
+user_pref("browser.privatebrowsing.autostart", true);
+
+
+
+
+
