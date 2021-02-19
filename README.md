@@ -68,11 +68,14 @@ This user.js is a continue from where hardened profile left of, with some additi
 * [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 	* Blocks trackers on urls, and can clean urls you share.
 
-* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) 
-	* Redirects Youtube, Twitter, Instagram and more. 
-	
-	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
+
+* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
+
+	* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) 
+		* Redirects Youtube, Twitter, Instagram and more. 
+		* I personally cant really get this redirecting to work as Id expect (yt -> invidious anyway, I dont really use any of the others at all), however, your experience may differ.
+	
 
 * *HTTPS everywhere* 
 	* **No longer needed with FF https-only mode.** Enabled on all profiles.
