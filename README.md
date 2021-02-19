@@ -22,7 +22,7 @@ What currently works;
 	* Set dom.event.contextmenu.enabled to false. some websites likes to restrict you on rightclicking, and Im not having it, so I changed this setting.
 
 ### Hardened 
-In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), and really just commented/uncommented it to suit my preferences. this may or may not work for you, so please dont get worked up if something doesnt work like youre used to, as my preferences may differ from yours. Some breakage is to be expected.
+In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), and really just commented/uncommented it to suit my preferences. this setup may or may not work for you, so please dont get worked up if something doesnt work like youre used to, as my preferences may differ from yours. Some breakage is to be expected.
 
 #### Things of interest:
 ##### Just a small list if things that may be of interest if works, or how it works, and how to *fix* them
@@ -37,12 +37,12 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* I was able to log in when choosing to sign up, and at the bottom of the window, it says log in.
 
 * due to **svg.disabled** is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false. 
-* I havent tested youtube.com, ~~nor yt player on invidious,~~ (yt player option on invidious does work for me)  as I dont personally use it.
+* I havent tested youtube.com, as I dont personally use it.
 * You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
 
 * **This profile has some quirks, that may not be what youre used to:**
-	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled URLs. to search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
-	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have sort of a white *frame* inside the window, wrapping the website. this may be annoying to you, and if thats the case, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
+	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled queries. To search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
+	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have a white *frame* inside the window, wrapping the website. if your find this to be too annoying, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
 
 
 ### Extra-hardened *(Currently not added)*
@@ -68,10 +68,14 @@ This user.js is a continue from where hardened profile left of, with some additi
 * [ClearURLS](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 	* Blocks trackers on urls, and can clean urls you share.
 
-* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) \
-	* Redirects Youtube, Twitter, Instagram and more. 
-	* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
+
+* [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 		* Redirecting tool for youtube -> invidious, and twitter -> nitter,
+
+	* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) 
+		* Redirects Youtube, Twitter, Instagram and more. 
+		* I personally cant really get this redirecting to work as Id expect (yt -> invidious anyway, I dont really use any of the others at all), however, your experience may differ.
+	
 
 * *HTTPS everywhere* 
 	* **No longer needed with FF https-only mode.** Enabled on all profiles.
