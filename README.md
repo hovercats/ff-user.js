@@ -38,7 +38,7 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
 
 
-- [x] Github ~~(With a quirk)~~ - ~~ Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.~~
+- [x] Github ~~(With a quirk) - Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.~~
 	* ~~I was able to log in when choosing to sign up, and at the bottom of the window, it says log in.~~
 
 * **This profile has some quirks, that may not be what youre used to:**
