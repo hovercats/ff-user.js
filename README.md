@@ -38,8 +38,8 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
 
 
-- [x] Github (With a quirk) -  Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it.
-	* I was able to log in when choosing to sign up, and at the bottom of the window, it says log in.
+- [x] Github ~~ (With a quirk) -  Cant seem to access the side menu where you log in. have to use betterdefaults profile to access untill I figure out what setting is tripping it. ~~
+	* ~~I was able to log in when choosing to sign up, and at the bottom of the window, it says log in.~~
 
 * **This profile has some quirks, that may not be what youre used to:**
 	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled queries. To search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
