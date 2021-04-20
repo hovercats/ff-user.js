@@ -30,18 +30,18 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 - [x] Reddit (partially)
 
 * ~~There seems to be an issue with the logging in part, Im able to enter my credentials, but the redirect dont seem to work as intended~~ old.reddit.com works.
-* You should check out (Libreddit)[https://github.com/spikecodes/libreddit] instead, for viewing reddit without giving away your IP address.
+* You should check out [Libreddit](https://github.com/spikecodes/libreddit) instead, for viewing reddit without giving away your IP address.
 
 - [x] ~~YouTube~~ **Invidious**
 
 	* due to **svg.disabled** is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false. 
 		* I havent verified if this is actually breaks yt player or not, as I dont use it.
 	* You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
-	* If your on Android, consider checking out (NewPipe)[https://github.com/TeamNewPipe/NewPipe]
+	* If youre on Android, consider checking out [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 
 
 - [x] Github (With a quirk)
-	* I cant seem to login from github.com's main page, so to login, I have to go straight to (github's login page)[www.github.com/login]
+	* I cant seem to login from github.com's main page, so to login, I have to go straight to [github's login page](www.github.com/login)
 
 * **This profile has some quirks, that may not be what youre used to:**
 	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled queries. To search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
@@ -70,8 +70,9 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 
 * [Invidition](https://addons.mozilla.org/en-US/firefox/addon/invidition/)
 
-	* Redirecting tool for youtube -> invidious, and twitter -> nitter,
-		* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) 
+	* Redirecting tool for youtube -> invidious, and twitter -> nitter.
+
+	* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect) - Alternative to Invidition.
 			* Redirects Youtube, Twitter, Instagram and more. 
 			* I couldnt really get this redirecting to work as Id expect (yt -> invidious anyway, I dont really use any of the others at all), however, your experience may differ.
 	
