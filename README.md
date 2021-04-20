@@ -74,8 +74,8 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 
 	* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect), an alternative to Invidition.
 			
-			* Redirects Youtube, Twitter, Instagram and more. 
-			* I couldnt really get this redirecting to work as Id expect (yt -> invidious anyway, I dont really use any of the others at all), however, your experience may differ.
+			- Redirects Youtube, Twitter, Instagram and more. 
+			- I couldnt really get this redirecting to work as Id expect (yt -> invidious anyway, I dont really use any of the others at all), however, your experience may differ.
 	
 
 * *HTTPS everywhere* 
