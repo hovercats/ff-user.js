@@ -1,6 +1,6 @@
 /******
 * name: arkenfox user.js
-* date: 20 Apr 2021
+* date: 09 May 2021
 * version 88
 * url: https://github.com/arkenfox/user.js
 * license: MIT: https://github.com/arkenfox/user.js/blob/master/LICENSE.txt
@@ -201,10 +201,6 @@ user_pref("extensions.getAddons.cache.enabled", false);
 /* 0308: disable search engine updates (e.g. OpenSearch)
  * [NOTE] This does not affect Mozilla's built-in or Web Extension search engines ***/
 user_pref("browser.search.update", false);
-/* 0309: disable sending Flash crash reports ***/
-user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
-/* 0310: disable sending the URL of the website where a plugin crashed ***/
-user_pref("dom.ipc.plugins.reportCrashURL", false);
 /* 0320: disable about:addons' Recommendations pane (uses Google Analytics) ***/
 user_pref("extensions.getAddons.showPane", false); // [HIDDEN PREF]
 /* 0321: disable recommendations in about:addons' Extensions and Themes panes [FF68+] ***/
@@ -313,8 +309,6 @@ user_pref("browser.safebrowsing.downloads.remote.url", "");
      built-in features to Firefox, that are hidden from the about:addons UI.
      To view your System Add-ons go to about:support, they are listed under "Firefox Features"
 
-     Some System Add-ons have no on-off prefs. Instead you can manually remove them. Note that app
-     updates will restore them. They may also be updated and possibly restored automatically (see 0505)
      * Portable: "...\App\Firefox64\browser\features\" (or "App\Firefox\etc" for 32bit)
      * Windows: "...\Program Files\Mozilla\browser\features" (or "Program Files (X86)\etc" for 32bit)
      * Mac: "...\Applications\Firefox\Contents\Resources\browser\features\"
@@ -322,7 +316,7 @@ user_pref("browser.safebrowsing.downloads.remote.url", "");
      * Linux: "/usr/lib/firefox/browser/features" (or similar)
 
      [1] https://firefox-source-docs.mozilla.org/toolkit/mozapps/extensions/addon-manager/SystemAddons.html
-     [2] https://dxr.mozilla.org/mozilla-central/source/browser/extensions
+     [2] https://searchfox.org/mozilla-central/source/browser/extensions 
 ***/
 user_pref("_user.js.parrot", "0500 syntax error: the parrot's cashed in 'is chips!");
 /* 0503: disable Normandy/Shield [FF60+]
@@ -885,11 +879,6 @@ user_pref("privacy.userContext.enabled", true);
 
 /*** [SECTION 1800]: PLUGINS ***/
 user_pref("_user.js.parrot", "1800 syntax error: the parrot's pushing up daisies!");
-/* 1803: disable Flash plugin
- * 0=deactivated, 1=ask, 2=enabled
- * ESR52.x is the last branch to *fully* support NPAPI, FF52+ stable only supports Flash
- * [NOTE] You can still override individual sites via site permissions ***/
-user_pref("plugin.state.flash", 0);
 /* 1820: disable GMP (Gecko Media Plugins)
  * [1] https://wiki.mozilla.org/GeckoMediaPlugins ***/
    // user_pref("media.gmp-provider.enabled", false);
@@ -1163,19 +1152,20 @@ user_pref("webchannel.allowObject.urlWhitelist", "");
  * [1] https://wiki.mozilla.org/IDN_Display_Algorithm
  * [2] https://en.wikipedia.org/wiki/IDN_homograph_attack
  * [3] CVE-2017-5383: https://www.mozilla.org/security/advisories/mfsa2017-02/
- * [4] https://www.xudongz.com/blog/2017/idn-phishing/ ***/
+ 
 user_pref("network.IDN_show_punycode", true);
-/* 2620: enforce Firefox's built-in PDF reader [SETUP-CHROME]
+/* 2620: enforce PDFJS, disable PDFJS scripting [SETUP-CHROME]
  * This setting controls if the option "Display in Firefox" is available in the setting below
  *   and by effect controls whether PDFs are handled in-browser or externally ("Ask" or "Open With")
  * PROS: pdfjs is lightweight, open source, and as secure/vetted as any pdf reader out there (more than most)
- *   Exploits are rare (1 serious case in 4 yrs), treated seriously and patched quickly.
+ *   Exploits are rare (1 serious case in 7 years), treated seriously and patched quickly.
  *   It doesn't break "state separation" of browser content (by not sharing with OS, independent apps).
  *   It maintains disk avoidance and application data isolation. It's convenient. You can still save to disk.
  * CONS: You may prefer a different pdf reader for security reasons
  * CAVEAT: JS can still force a pdf to open in-browser by bundling its own code (rare)
  * [SETTING] General>Applications>Portable Document Format (PDF) ***/
 user_pref("pdfjs.disabled", false); // [DEFAULT: false]
+user_pref("pdfjs.enableScripting", false); // [FF86+]
 /* 2621: disable links launching Windows Store on Windows 8/8.1/10 [WINDOWS] ***/
 user_pref("network.protocol-handler.external.ms-windows-store", false);
 /* 2622: enforce no system colors; they can be fingerprinted
@@ -1509,20 +1499,18 @@ user_pref("ui.prefersReducedMotion", 1); // [HIDDEN PREF]
 user_pref("_user.js.parrot", "4600 syntax error: the parrot's crossed the Jordan");
 /* [SETUP-non-RFP] Non-RFP users replace the * with a slash on this line to enable these
 // FF55+
-// 4601: [2514] spoof (or limit?) number of CPU cores [FF48+]
-   // [NOTE] *may* affect core chrome/Firefox performance, will affect content.
+// 4601: [2514] spoof number of CPU cores [FF48+]
    // [1] https://bugzilla.mozilla.org/1008453
    // [2] https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/21675
    // [3] https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/22127
    // [4] https://html.spec.whatwg.org/multipage/workers.html#navigator.hardwareconcurrency
-   // user_pref("dom.maxHardwareConcurrency", 2);
-// * * * /
+ user_pref("dom.maxHardwareConcurrency", 2);
 // FF56+
 // 4602: [2411] disable resource/navigation timing
 user_pref("dom.enable_resource_timing", false);
 // 4603: [2412] disable timing attacks
    // [1] https://wiki.mozilla.org/Security/Reviews/Firefox/NavigationTimingAPI
-user_pref("dom.enable_performance", false);
+// user_pref("dom.enable_performance", false);
 // 4604: [2512] disable device sensor API
    // Optional protection depending on your device
    // [1] https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/15758
@@ -1702,6 +1690,19 @@ user_pref("browser.search.geoSpecificDefaults.url", "");
     // 0105d: disable Activity Stream recent Highlights in the Library [FF57+]
     // [-] https://bugzilla.mozilla.org/1689405
     // user_pref("browser.library.activity-stream.enabled", false);
+// FF89
+// 0309: disable sending Flash crash reports
+   // [-] https://bugzilla.mozilla.org/1682030 [underlying NPAPI code removed]
+user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
+// 0310: disable sending the URL of the website where a plugin crashed
+   // [-] https://bugzilla.mozilla.org/1682030 [underlying NPAPI code removed]
+user_pref("dom.ipc.plugins.reportCrashURL", false);
+// 1803: disable Flash plugin
+  // 0=deactivated, 1=ask, 2=enabled
+  // ESR52.x is the last branch to *fully* support NPAPI, FF52+ stable only supports Flash
+  // [NOTE] You can still override individual sites via site permissions
+  // [-] https://bugzilla.mozilla.org/1682030 [underlying NPAPI code removed]
+user_pref("plugin.state.flash", 0); // [DEFAULT: 1]
 // ***/
 
 /* END: internal custom pref to test for syntax errors ***/
