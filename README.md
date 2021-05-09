@@ -1,6 +1,4 @@
 ## Firefox user.js profiles
-In this repo, youll find 3 sets of user.js', to use on your firefox browser (or forks that support it). Beginning from a better default, with privacytools.io's recommendations with more, ending with a really hardened setup made from arkenfox's user.js.
-
 
 
 ### betterdefaults-user.js
@@ -12,7 +10,7 @@ The goal of this profile, is as following;
 - Just work.
 - Convinient, yet more secure/private than default configs
 - Should work fine for the everyday man, looking for more privacy without comprimising on usablity
-- Minimal breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still retained
+- Minimal to no breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still kept)
 What currently works;
 - [x] Everything *(afaik anyway*)
 
