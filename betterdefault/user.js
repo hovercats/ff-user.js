@@ -4,7 +4,7 @@ user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.cryptomining.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("browser.send_pings", false);
-user_pref("browser.urlbar.speculative.Connect.enabled", false);
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("dom.event.clipboardevents.enabled", false);
 user_pref("media.eme.enabled", false);
 user_pref("media.gmp-widevinecdm.enabled", false);
