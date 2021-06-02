@@ -1,7 +1,8 @@
 ## Firefox user.js profiles
 
 
-### betterdefaults-user.js
+### betterdefaults
+--- 
 This user.js, is the profile Ive used for a long time, and its proven to work, but eventually, I wanted something more than this.
 Its based off of the recommendations of [Privacytools.io's about:config](https://privacytools.io/browsers/#about_config).
 
@@ -18,8 +19,10 @@ What currently works;
 	* pocket, firefox accounts, extension recommendation, and whatsnew pages is disabled, as I just find them annoying. refer to user.js if you need these.
 	* I enabled backspace to go back.
 	* Set dom.event.contextmenu.enabled to false. some websites likes to restrict you on rightclicking, and Im not having it, so I changed this setting.
+---
 
 ### Hardened 
+--- 
 In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), and really just commented/uncommented it to suit my preferences. this setup may or may not work for you, so please dont get worked up if something doesnt work like youre used to, as my preferences may differ from yours. Some breakage is to be expected.
 
 #### Things of interest:
@@ -45,9 +48,7 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* You cannot search directly from the URL bar - this is to prevent leaks, and search engine getting your misspelled queries. To search, either first type @ddg (or any other, check your settings for search engines, and make your own tags to suit your needs), or enable the separate search bar on the side. this is effectivly just a habbit that needs to be unlearned to not find this annoying. if this feature is an aboslute must to have, set **keyword.enabled** to true. see user.js for more info.
 	* **privacy.resistFingerprinting.letterboxing** is set to true, which means youll have a white *frame* inside the window, wrapping the website. if your find this to be too annoying, set it to false. Just bear in mind that this is effectivly fingerprintable. for more details, see the user.js file. 
 
-
-### Other stuff that might be of interest
-
+---
 
 #### Addons that might be of interest
 
