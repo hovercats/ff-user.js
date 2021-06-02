@@ -12,8 +12,9 @@ The goal of this profile, is as following;
 - Convinient, yet more secure/private than default configs
 - Should work fine for the everyday man, looking for more privacy without comprimising on usablity
 - Minimal to no breakage on sites (I personally dont care too much about some breakage, as far as sites functionallity is still kept)
-What currently works;
-- [x] Everything *(afaik anyway*)
+
+What currently doesnt works;
+- [x] Nothing *(afaik anyway)*. Everything should work as expected.
 
 * Ive changed a couple of other things outside of ptio's recommendations;
 	* pocket, firefox accounts, extension recommendation, and whatsnew pages is disabled, as I just find them annoying. refer to user.js if you need these.
