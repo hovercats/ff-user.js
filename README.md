@@ -82,8 +82,8 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 #### References, links etc
 [Privacytools.io](privacytools.io) \
 [Arkenfox github](https://github.com/arkenfox/user.js/) \
-[R/privacy](reddit.com/r/privacy/) \
-[R/privacytoolsIO](reddit.com/r/privacytoolsio) \
+[R/privacy](https://libredd.it/r/privacy/) \
+[R/privacytoolsIO](https://libredd.it/r/privacytoolsIO/) \
 [Invidious - Youtube front-end alternative](https://github.com/iv-org/invidious) \
 [Techlore - Invidious link](https://invidious.snopyta.org/channel/UCs6KfncB4OV6Vug4o_bzijg) -  [Youtube link](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg) \
 [The hated one - Invidious link](https://invidious.snopyta.org/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - [Youtube link](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) \
