@@ -73,10 +73,6 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 	* Redirecting tool for youtube -> invidious, and twitter -> nitter.
 
 	* [Privacy-redirect](https://github.com/SimonBrazell/privacy-redirect), an alternative to Invidition, with more redirects.
-	
-
-* *HTTPS everywhere* 
-	* **No longer needed with FF https-only mode.** Enabled on all profiles.
 
 
 #### References, links etc
@@ -88,6 +84,9 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 [Techlore - Invidious link](https://invidious.snopyta.org/channel/UCs6KfncB4OV6Vug4o_bzijg) -  [Youtube link](https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg) \
 [The hated one - Invidious link](https://invidious.snopyta.org/channel/UCjr2bPAyPV7t35MvcgT3W8Q) - [Youtube link](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) \
 [EFF - Electronic Frontier Foundation](https://www.eff.org/) \
+
+Related, if you want anonymity and not just privacy:
+
 [Tor Browser](torproject.org) \
 [Whonix - basiclly Tor in virtualmachines](whonix.org) \
 [Tails OS - Amnesic live USB OS](https://tails.boum.org/)
