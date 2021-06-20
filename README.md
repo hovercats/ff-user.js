@@ -37,7 +37,7 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 - [x] ~~YouTube~~ **Invidious**
 
 	* due to **svg.disabled** is set to true, yt player *may* break, if you are for whatever reason still choosing to use youtube, instead of invidious, you may wish to set **svg.disabled** to false. 
-		* I havent verified if this is actually breaks yt player or not, as I dont use it.
+		* I havent verified if this actually breaks yt player or not, as I dont use it.
 	* You should not use YT anyway, stick with [Invidious](https://github.com/iv-org/invidious).
 	* If youre on Android, consider checking out [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 
