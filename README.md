@@ -53,10 +53,6 @@ In this user.js, Ive used [Arkenfox's templated](github.com/arkenfox/user.js), a
 
 #### Addons that might be of interest
 
-* [Umatrix](https://github.com/gorhill/uMatrix)
-	* **WARNING!! No longer recieving updates!!**
-	* Advanced Blocking utilty, that can block scripts, cookies, CSS, images frames..
-
 * [uBlock Origin](https://github.com/gorhill/uBlock)
 	* Convinient scriptblocking tool, with blocklists, which means it can easily be used in the background, or you can run it in advanced mode to block all scripts by default. 
 
